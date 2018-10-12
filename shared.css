@@ -1,0 +1,381 @@
+/* Only Main Style Design */
+
+/* --------------------------------------------------- */
+
+/* Whole Page Container */
+
+#HomepageBox, #FooterBox	{	background-size: 100%;
+								width:100%;
+								}	
+								
+#HomepageBox			{ 	background-color: #D6E5EC;
+							}
+											
+/* --------------------------------------------------- */
+
+/* Body */
+
+html, body 				{	width:100%;
+    						height:100%;
+    						margin:0;
+    						padding:0;
+							}
+
+/* --------------------------------------------------- */
+
+					/* Header */
+						
+#wrapperTop 			{ 	width: 100%;
+							height: 150px;
+							background-image: url(./images/IMG_3974.JPG);	
+							background-size: 100% 100%;
+							background-position:center;
+							}
+
+
+					/* Menu */
+
+#BannerClickable		{	width: 100%; /* Container */
+							position: relative;
+							}
+							
+.logo 					{ 	width: 80px;
+							padding-top: 52px;
+							background-image: url(./images/Logo.png);
+							background-size: 100%;
+    						background-repeat: no-repeat;
+    						display:inline-block;
+    						float: left;
+    						background-color: #333;
+							}							
+							
+.banner 				{ 	width: 80px;
+							padding-top: 52px;
+							padding-left: 5%;
+							padding-right: 5%;
+							background-position:center;
+							background-image: url(./images/banner.png);
+							background-size: 80%;
+    						background-repeat: no-repeat;
+    						display:inline-block;
+    						float: left;
+    						background-color: #333;
+							}	
+							
+@media screen and (max-width: 1200px) {
+    .banner  {
+        display: none;
+    }
+}
+
+.Menu {
+	width: 100%;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: none;
+}
+
+.Menu a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 3px 10px;
+    text-decoration: none;
+}
+
+.Option1, .Option2  {
+	width: 18%;
+	padding-top: 6px;
+    float: left;
+    overflow: hidden;
+}
+
+.Option3, .Option4  {
+	width: 18%;
+	padding-top: 6px;
+    float: right;
+    text-align: right;
+    overflow: hidden;
+	}
+
+.Option2, .Option4  {
+    float: left;
+    overflow: hidden;
+}
+
+.Option1 .Option1Button, .Option2 .Option2Button, .Option3 .Option3Button, .Option4 .Option4Button { 
+    font-size: 90%;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.Option1:hover .Option1Button, .Option2:hover .Option2Button, .Option3:hover .Option3Button, .Option4:hover .Option4Button {
+    background-color: red;
+}
+
+.Option1Layers, .Option2Layers, .Option3Layers, .Option4Layers {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px; /* Width */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.Option1Layers a, .Option2Layers a, .Option3Layers a, .Option4Layers a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.Option1Layers a:hover, .Option2Layers a:hover, .Option3Layers a:hover, .Option4Layers a:hover {
+    background-color: #ddd;
+}
+
+.Option1:hover .Option1Layers, .Option2:hover .Option2Layers, .Option3:hover .Option3Layers, .Option4:hover .Option4Layers {
+    display: block;
+}
+
+.Option3Button			{ 	width: 80px;
+							background-image: url(./images/LI.png);
+							background-size: 100%;
+    						background-repeat: no-repeat;
+    						display:inline-block;
+    						float: left;
+    						background-color: #333;
+							}
+
+.Option3				{ 	padding-top: 15px;
+							padding-left: 5%;
+    						float: left;
+    						overflow: hidden;
+							}
+							
+.Option4Button			{ 	background-image: url(./images/FB.png);
+    						background-repeat: no-repeat;
+    						background-position:center; 
+    						display:inline-block;
+    						float: left;
+    						background-color: #333;
+							}
+
+.Option4				{ 	padding-top: 12px;
+    						float: left;
+    						overflow: hidden;
+							}
+
+/* ----------------------------------------------------------------------------------- */
+
+/* ----- Middle Area Settings ------------------ */
+
+
+/* ----------------------------------------------------------------------------------- */
+
+#intro1				{	width: 100%;
+    					}
+
+#intro2				{	margin: auto;
+						position: relative;
+						text-align: center;
+						font-size: 7vw;
+						text-decoration: bold;
+    					padding-top: 2%;
+    					}
+    					
+#intro3				{	margin: auto;
+						position: relative;
+						text-align: center;
+						font-size: 4vw;
+						padding-bottom: 1%;
+    					}
+
+/* ----- Privacy Policy ------------------ */
+
+				/* Page Reworked Using 960 GS */
+#centerprivacy		{	margin: auto;
+    					padding-left: 1%;
+    					}
+    					
+
+/* ----- Resume ------------------ */ 		
+
+/* Footer removed until it can be properly placed. */
+#resume				{ 	position: absolute;
+						top: 26%;
+						width: 100%;
+						height: 100%;
+						}	
+						
+/* ----- Oracle ------------------ */ 		
+
+/* Footer removed until it can be properly placed. */
+#bank				{ 	position: absolute;
+						top: 26%;
+						width: 100%;
+						height: 100%;
+						}	
+						
+/* ----- Management ------------------ */ 		
+
+/* Footer removed until it can be properly placed. */
+#management			{ 	position: absolute;
+						top: 26%;
+						width: 100%;
+						height: 100%;
+						}	
+
+/* ----- Writing ------------------ */
+
+/* Footer removed until it can be properly placed. */
+#writing			{ 	position: absolute;
+						top: 26%;
+						width: 100%;
+						height: 100%;
+						}
+
+
+/* ----------------------------------------------------------------------------------- */
+
+/* ----- Slideshow ------------------ */
+
+#slideshowWrapper img	{	width: 100%;
+							max-height: auto;
+							}
+
+ #slideshow {
+    position: relative; 
+    width: 100%; 
+    height: 100%; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+/* #slideshow { 
+    margin: 50px auto; 
+    position: relative; 
+    width: 240px; 
+    height: 240px; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+*/
+
+/* ----------------------------------------------------------------------------------- */
+
+	/* ----- Footer Bottom ------------------ */
+	
+					/* Menu */ 
+												
+.Footer {
+	width: 100%;
+	position: relative;
+    bottom: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: none;
+}
+
+.Footer a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 3px 10px;
+}
+
+.FooterOption1, .FooterOption2, FooterOption3  {
+	width: 33%;
+	padding-top: 6px;
+    overflow: hidden;
+}
+
+.FooterOption1 {
+	float: left;
+	padding-left: 5%;
+	}
+	
+.FooterOption2 {
+	float: left;
+	margin: auto;
+	}
+
+.FooterOption3  {
+	float: right;
+	padding-top: 6px;
+    padding-right: 5%;
+	}
+
+.FooterOption1 .FooterOption1Button, .FooterOption2 .FooterOption2Button, .FooterOption3 .FooterOption3Button { 
+    font-size: 90%;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.FooterOption1:hover .FooterOption1Button, .FooterOption2:hover .FooterOption2Button, .FooterOption3:hover .FooterOption3Button {
+    background-color: red;
+}
+
+
+.FooterOption1Layers, .FooterOption2Layers, .FooterOption3Layers {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px; /* Width */  
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+} 
+
+.FooterOption1Layers a, .FooterOption2Layers a, .FooterOption3Layers a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: white;
+    text-align: left;
+}
+
+.FooterOption1Layers a:hover, .FooterOption2Layers a:hover, .FooterOption3Layers a:hover {
+    background-color: #ddd;
+}
+
+.FooterOption1:hover .FooterOption1Layers, .FooterOption2:hover .FooterOption2Layers, .FooterOption3:hover .FooterOption3Layers {
+    display: block;
+}
+
+						
+	/* ----- Warning Settings ------------- */	
+
+#WarningMessage		{	width:100%;
+						}
+					
+#WarningMessage	p	{	color: black;
+						position: relative;
+						transform: translateY(-50%); 
+						padding-top: 50px;
+						text-align: center;
+						}
+	
+/* --------------------------------------------------- */

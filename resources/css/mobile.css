@@ -1,0 +1,503 @@
+				/* Header */	
+						
+#header1 			{ 	min-height: 250px;
+						background-color: #F5F5DC;
+						background-image: url(../../images/morgans.jpg);	
+						background-size: 50% 100%;	
+						background-repeat: repeat;
+						background-position:center;
+						}
+						
+/* Body */
+		
+body 				{	background-color: #F5F5DC;
+						font-family: times new roman;
+						}
+		
+
+#homepagebox, #aboutbox, #cleaningbox, #contactbox, #directionbox, #faqbox, #gamebox, #gradingbox, #historybox, #silverprice, #storingbox, #linksbox,  #privacybox, #pricingbox	{	
+						background-color: #F5F5DC;
+						font-family: times new roman;
+						font-size: 30px;
+						width: 100%; 
+						}
+
+
+				/* Menu */
+				
+				/* Menu panel */
+
+#menu 				{ 	font-weight: bold;
+						float: left;
+						font-size: 20px;
+						} 
+					
+#menu ul , li		{ 	font-weight: bold;
+						list-style-type: none;
+						margin: 0;
+						padding: 0;
+						text-align: left;
+						}
+					
+#menu a 			{ 	border-bottom: 3px solid #000000;
+						text-decoration: underline;			
+						padding: 35px;
+						}	
+
+
+			/* Home */
+			
+/* Home Page ---------------------------------------------------------------------*/
+
+#mainheader h1		{	font-family: verdana;
+						color: purple;
+						padding-left: 0%;
+						text-decoration: underline;
+						}	
+						
+.welcome 		{		font-family: times new roman;
+						color: green;
+						padding-left: 0%;
+						font-size: 40px;
+						text-decoration: underline;
+						}	
+						
+#homegreeting p		{	color: black;
+						padding-left: 0%;
+						text-decoration: underline;
+						}							
+
+#mainindex p		{	color: black;
+						padding-left: 0%;
+						font-size: 35px;
+						}
+						
+#homecomp p		{		padding-left: 47%;
+						text-decoration: underline;
+						font-weight: bold;
+						font-size: 35px;
+						}	
+						
+#homecomp ol		{	padding-left: 48%;
+						text-decoration: underline;
+						font-size: 35px;
+						}
+	
+#homelinks p		{ 	padding-left: 0%;
+						float: left;
+						font-size: 35px;	
+    					}	
+						
+#homelinks li		{ 	padding-left: 0%;
+						float: left;	
+						font-size: 35px;
+    					}	
+    					
+    					
+/* About Page ---------------------------------------------------------------------*/
+
+#mainabout h1		{	font-family: tahoma;
+						color: black;
+						text-decoration: underline;
+						}
+
+#maintext dt 		{	font-family: Palatino Linotype;
+						color: black;
+						text-decoration: underline;
+						font-weight: bold;
+						padding-top: 3%;
+						padding-bottom: 3%;
+						}	
+					
+#maintext dd		{	font-family: serif;
+						color: black;
+						font-style: italic;
+						}
+						
+						/* Footer */
+						
+#footerabout h1		{	color: black;
+						text-decoration: underline;
+						font-style: normal;
+						}
+						
+/* Cleaning Page ---------------------------------------------------------------------*/
+
+#cleaningtop h1		{	text-decoration: underline;
+						color: green;
+						}
+
+#cleaningoption1 h2		{	text-decoration: underline;
+							}	
+							
+#cleaningoption2 h2		{	text-decoration: underline;
+							}	
+							
+#cleaningoption3 h2		{	text-decoration: underline;
+							}
+							
+
+/* Contact Page ---------------------------------------------------------------------*/
+
+
+#contactheadername h1		{	font-family: arial;
+								color: green;
+								}
+
+
+#fivestar			{	position: absolute;
+						margin-left: 25%;
+						}	
+						
+					
+					/* Button Colors */			
+					
+					
+#email p			{	font-weight: bold;
+						font-style: normal;
+						color: red;
+						}
+						
+#mailinglist p			{	font-weight: bold;
+						font-style: normal;
+						color: black;
+						}
+						
+#clubmember p			{	font-weight: bold;
+						font-style: normal;
+						color: blue;
+						}
+						
+#contactbuttons li		{  	margin-right: 15px;
+						display: inline;
+  						}				
+						
+#contactbuttons button	{	font-family: Lucida Console;
+						color: black;
+						font-weight: bold;
+						font-size: 15px;
+						position: relative;
+						}
+						
+
+						/* Club Membership */
+
+#contactcm1			{	padding-left: 2px;
+						}
+						
+#contactcm2			{	padding-left: 54px;
+						}
+						
+#contactcm3			{	padding-left: 69px;
+						}
+					
+#contactcm4			{	padding-left: 60px;
+						}
+						
+#contactcm5			{	padding-left: 27px;
+						}
+						
+#contactcm6			{	padding-left: 37px;
+						}
+						
+#contactcm7			{	padding-left: 0px;
+						}
+						
+#contactcm8			{	padding-left: 0px;
+						}
+						
+#contactcm9			{	padding-left: 0px;
+						}	
+						
+#contactcm10		{	padding-left: 45px;
+						}			
+
+
+						/* Email List */
+
+#contactem			{	padding-left: 40px;
+						}	
+						
+					
+						/* Mailing List */
+
+#contactml1			{	padding-left: 1px;
+						}
+						
+#contactml2			{	padding-left: 52px;
+						}
+						
+#contactml3			{	padding-left: 67px;
+						}
+						
+#contactml4			{	padding-left: 60px;
+						}
+						
+#contactml5			{	padding-left: 28px;
+						}
+						
+#contactml6			{	padding-left: 40px;
+						}
+						
+#contactml7			{	margin-left: -5px;
+						padding-top: 5px;
+						}				
+				
+						
+
+				/* Footer */
+				
+#footercontact h1	{	font-family: tahoma;
+						font-style: italic;
+						color: blue;
+						}					
+
+
+/* Direction Page ---------------------------------------------------------------------*/
+
+							
+#directionMiddle h2		{	text-decoration: underline;
+							color: black;
+							}	
+							
+
+#map 					{ 	width: 100%;
+  							height: 500px;
+  							border: 1px solid #000;
+  							}
+
+							
+/* Facts Page ---------------------------------------------------------------------*/						
+		
+		
+				/* Header */
+								
+#mainfaq 	h1		{	font-family: arial;
+						color: Red;
+						text-decoration: underline;
+						}						
+						
+#factslist 	summary	{	font-family: Lucida Console;
+						color: black;
+						padding-bottom: 3%;
+						text-decoration: underline;
+						text-align: left;
+						}						
+						
+#factswebsites dt	{	font-family: times new roman;
+						color: black;
+						text-decoration: underline;
+						font-weight: bold;
+						padding-top: 3%;
+						padding-bottom: 3%;
+						}						
+						
+#factslist p		{	font-family: times new roman;
+						color: black;
+						font-style: italic;
+						}
+
+#textfaq p			{	font-family: times new roman;
+						color: black;
+						font-style: normal;
+						}	
+
+#faqml1			{	padding-left: 20px;
+						}
+						
+#faqml2			{	padding-left: 22px;
+						}
+						
+#faqml3			{	padding-left: 59px;
+						}
+						
+#faqml4			{	padding-left: 22px;
+						}
+
+
+/* Game Page ---------------------------------------------------------------------*/
+
+
+
+#gametop h2		{		font-family: verdana;
+						color: purple;
+						padding-left: 0%;
+						text-decoration: underline;
+						}		
+						
+#gameinfo  		{		padding-left: 5%;
+						}
+						
+#gamewriting, #gamewriting, #gamehistory, #gamespread, #gamewins   		{	
+						padding-left: 5%;
+						}
+						
+#gamerules caption {	text-decoration: underline;
+						}	
+						
+#gamerules th 	{		text-decoration: underline;
+						}
+						
+#gamerules table, th, td {	border: 3px solid black;
+						}							
+
+#franksfirstgame form	{	color: black;
+							padding-left: 0%;
+							text-decoration: underline;
+							}
+							
+#franksfirstgame h2	{	color: black;
+						padding-left: 0%;
+						text-decoration: underline;
+						font-size: 30px;
+						}
+						
+#gameSelection 		{		padding-left: 18%;
+						}
+						
+#gameButton   		{	padding-left: 20%;
+						}
+						
+#gameOutput   		{	padding-left: 20%;
+						}
+						
+#gamereset   		{	font-weight: bold;
+						font-size: 30px;
+						}
+						
+#penny, #cloth, #morgan   		{	font-weight: bold;
+									font-size: 20px;
+									}
+
+
+/* Grade Page ---------------------------------------------------------------------*/
+
+				/* Pictures */					
+
+#gradepoor 			{ 	width: 100px;
+    					height: 100px;
+						background-color: #F5F5DC;
+						background-image: url(../../images/poor.png);	
+						background-size: cover;	
+						background-repeat: no-repeat;
+						background-position:center;
+						padding: 24% 15%;
+						}
+
+#gradeg 			{ 	width: 100px;
+    					height: 100px;
+						background-color: #F5F5DC;
+						background-image: url(../../images/g.png);	
+						background-size: cover;	
+						background-repeat: no-repeat;
+						background-position:center;
+						padding: 21% 13%;
+						}
+
+#gradevg 			{ 	width: 50px;
+    					height: 50px;
+						background-color: #F5F5DC;
+						background-image: url(../../images/vg.png);	
+						background-size: cover;	
+						background-repeat: no-repeat;
+						background-position:center;
+						padding: 23% 14%;
+						}						
+						
+#gradefine 			{ 	width: 100px;
+    					height: 100px;
+						background-color: #F5F5DC;
+						background-image: url(../../images/fine.png);	
+						background-size: cover;	
+						background-repeat: no-repeat;
+						background-position:center;
+						padding: 24% 15%;
+						}					
+
+#gradevf 			{ 	width: 100px;
+    					height: 100px;
+						background-color: #F5F5DC;
+						background-image: url(../../images/vf.png);	
+						background-size: cover;	
+						background-repeat: no-repeat;
+						background-position:center;
+						padding: 24% 15%;
+						}
+						
+#gradeef 			{ 	width: 100px;
+    					height: 100px;
+						background-color: #F5F5DC;
+						background-image: url(../../images/ef.png);	
+						background-size: cover;	
+						background-repeat: no-repeat;
+						background-position:center;
+						padding: 24% 15%;
+						}
+						
+#gradeau 			{ 	width: 100px;
+    					height: 100px;
+						background-color: #F5F5DC;
+						background-image: url(../../images/au.png);	
+						background-size: cover;	
+						background-repeat: no-repeat;
+						background-position:center;
+						padding: 24% 15%;
+						}				
+						
+#gradems 			{ 	width: 100px;
+    					height: 100px;
+						background-color: #F5F5DC;
+						background-image: url(../../images/ms.png);	
+						background-size: cover;	
+						background-repeat: no-repeat;
+						background-position:center;
+						padding: 24% 15%;
+						}
+
+
+/* Storage Page ---------------------------------------------------------------------*/
+
+#storagenever p		{	text-align: left;
+						font-weight: bold; 
+						}
+						
+#storagenever li	{	text-align: left;
+						font-weight: normal; 
+						}
+						
+
+/* Links Page ---------------------------------------------------------------------*/
+
+#linkstop h2		{	text-decoration: underline; 
+						}
+							
+#linkswebsite h2	{	text-decoration: underline; 
+						}
+					
+#linkstable			{	margin-top: 15px;
+						border-style: solid;
+						padding-right: 16%;
+						}
+						
+#linkscenter h3 {	text-decoration: underline; 
+					color: red;
+					} 
+					
+#linksright2 h3 {	text-decoration: underline; 
+					color: green;
+					padding-left: 25%
+					}
+					
+#linksright2 a {	text-decoration: underline; 
+					padding-left: 25%
+					}
+					
+#linksbottom1 h3 {	text-decoration: underline;
+					color: blue; 
+					padding-left: 65%;
+					}
+					
+#linksbottom1 a {	text-decoration: underline;
+					padding-left: 65%;
+					}
+						

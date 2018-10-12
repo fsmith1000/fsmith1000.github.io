@@ -1,0 +1,675 @@
+
+						
+				/* Centers text Area */
+		
+#centerpage			{  	background-color: #ADD8E6;
+						padding: 0% 10%;
+						font-family: times new roman; 
+						overflow: auto;
+						}			
+						
+
+/* Project 4 ---------------------------------------------------------------------*/
+	
+				/* Header */	
+						
+#headerTop 			{ 	min-height: 100px;
+						background-color: #ADD8E6;
+						background-image: url(../../images/morgans.jpg);	
+						background-size: 50% 100%;	
+						background-repeat: repeat;
+						background-position:center;
+						}
+		
+/* 960.GS */
+		
+#contacterror, #homepageboxProject {
+    							border-style: solid;
+    							border-color: #282828;
+								}
+/* Container */
+
+#homeborder, #aboutborder, #directionbox, #gamebox, #silverprice, #historybox, #cleaningbox, #pricingbox, #storingbox, #privacybox, #linksbox, #contactbox, #faqbox, #gradingbox		{	border-style: double;
+											border-radius: 10px;
+											border-width: 20px;
+											position: static;
+											}	
+						
+/* Body */
+		
+body 				{	background-color: #ADD8E6;
+						font-family: times new roman;
+						}
+
+				/* Menu panel */
+
+#menuProject 		{ 	font-weight: bold;
+						letter-spacing:0.15em;
+						float: left;
+						} 
+					
+#menuProject ul , li		{ 	font-weight: bold;
+						list-style-type: none;
+						margin: 0;
+						padding: 0;
+						text-align: center;
+						}
+					
+#menuProject a 			{ 	display: block;
+						border-bottom: 3px solid #000000;
+						text-decoration: underline;   
+						background-color: #ffffff;				
+						padding: 10px; 
+						}	
+				
+#menuProject a:link 	{ 	background-color: #CCCCCC;
+						color: #000000;
+						font-family: script;
+						font-size: 1.5em;
+						}
+					
+#menuProject a:hover 	{ 	background-color: #000000;
+						color: #FFF8DC;
+						font-family: script;
+						font-size: 1.5em;
+						} 	
+
+
+#printing { display: none;}					
+
+/* Home Page ---------------------------------------------------------------------*/
+
+#mainheader h1		{	font-family: verdana;
+						color: purple;
+						padding-left: 30%;
+						text-decoration: underline;
+						}	
+						
+.welcome 		{		font-family: times new roman;
+						color: green;
+						padding-left: 3%;
+						font-size: 1.3em;
+						text-decoration: underline;
+						}	
+						
+#homegreeting p		{	color: black;
+						padding-left: 30%;
+						text-decoration: underline;
+						}							
+
+#mainindex p		{	color: black;
+						padding-left: 20%;
+						}
+						
+#homecomp p		{		padding-left: 63%;
+						text-decoration: underline;
+						font-weight: bold;
+						}	
+						
+#homecomp ol		{	padding-left: 48%;
+						text-decoration: underline;
+						}
+	
+#homelinks p		{ 	padding-left: 20%;
+						float: left;	
+    					}	
+						
+#homelinks li		{ 	padding-left: 35%;
+						float: left;	
+    					}			
+												
+						
+
+							
+/* About Page ---------------------------------------------------------------------*/
+
+#mainabout h1		{	font-family: tahoma;
+						color: yellow;
+						text-decoration: underline;
+						}
+
+#maintext dt 		{	font-family: Palatino Linotype;
+						color: black;
+						text-decoration: underline;
+						font-weight: bold;
+						padding-top: 3%;
+						padding-bottom: 3%;
+						}	
+					
+#maintext dd		{	font-family: serif;
+						color: black;
+						font-style: italic;
+						}
+						
+						/* Footer */
+						
+#footerabout h1		{	color: yellow;
+						text-decoration: underline;
+						font-style: normal;
+						}
+						
+						
+						
+/* Cleaning Page ---------------------------------------------------------------------*/
+
+#cleaningtop h1		{	text-decoration: underline;
+						color: green;
+						}
+
+#cleaningoption1 h2		{	text-decoration: underline;
+							}	
+							
+#cleaningoption2 h2		{	text-decoration: underline;
+							}	
+							
+#cleaningoption3 h2		{	text-decoration: underline;
+							}
+													
+						
+/* Contact Page ---------------------------------------------------------------------*/
+
+
+#contactheadername h1		{	font-family: arial;
+								color: green;
+								}
+
+
+#fivestar			{	position: absolute;
+						margin-left: 25%;
+						}	
+						
+					
+					/* Button Colors */			
+					
+					
+#email p			{	font-weight: bold;
+						font-style: normal;
+						color: red;
+						}
+						
+#mailinglist p			{	font-weight: bold;
+						font-style: normal;
+						color: white;
+						}
+						
+#clubmember p			{	font-weight: bold;
+						font-style: normal;
+						color: blue;
+						}
+						
+#contactbuttons li		{  	margin-right: 15px;
+						display: inline;
+  						}				
+						
+#contactbuttons button	{	font-family: Lucida Console;
+						color: black;
+						font-weight: bold;
+						font-size: 15px;
+						position: relative;
+						}
+						
+
+						/* Club Membership */
+
+#contactcm1			{	padding-left: 2px;
+						}
+						
+#contactcm2			{	padding-left: 35px;
+						}
+						
+#contactcm3			{	padding-left: 45px;
+						}
+					
+#contactcm4			{	padding-left: 40px;
+						}
+						
+#contactcm5			{	padding-left: 20px;
+						}
+						
+#contactcm6			{	padding-left: 27px;
+						}
+						
+#contactcm7			{	padding-left: 0px;
+						}
+						
+#contactcm8			{	padding-left: 0px;
+						}
+						
+#contactcm9			{	padding-left: 0px;
+						}	
+						
+#contactcm10		{	padding-left: 32px;
+						}			
+
+
+						/* Email List */
+
+#contactem			{	padding-left: 25px;
+						}	
+						
+					
+						/* Mailing List */
+
+#contactml1			{	padding-left: 1px;
+						}
+						
+#contactml2			{	padding-left: 33px;
+						}
+						
+#contactml3			{	padding-left: 43px;
+						}
+						
+#contactml4			{	padding-left: 38px;
+						}
+						
+#contactml5			{	padding-left: 17px;
+						}
+						
+#contactml6			{	padding-left: 25px;
+						}
+						
+#contactml7			{	margin-left: -5px;
+						padding-top: 5px;
+						}				
+				
+						
+
+				/* Footer */
+				
+#footercontact h1	{	font-family: tahoma;
+						font-style: italic;
+						color: blue;
+						}					
+
+
+
+/* Direction Page ---------------------------------------------------------------------*/
+
+#centerdirection h1		{	text-decoration: underline;
+							}
+
+#directionTop h2		{	text-decoration: underline;
+							color: red;
+							}	
+							
+#directionMiddle h2		{	text-decoration: underline;
+							color: white;
+							}	
+							
+#directionBottom h3		{	text-decoration: underline;
+							color: blue;
+							}	
+							
+#directionBottom2 h3	{	text-decoration: underline;
+							color: black;
+							}						
+							
+#directionThankYou h2	{	text-decoration: underline;
+							color: green;
+							}	
+							
+#map 					{ 	width: 100%;
+  							height: 250px;
+  							border: 1px solid #000;
+  							}
+						
+/* Facts Page ---------------------------------------------------------------------*/						
+		
+		
+				/* Header */
+								
+#mainfaq 	h1		{	font-family: arial;
+						color: Red;
+						text-decoration: underline;
+						}						
+						
+#factslist 	summary	{	font-family: Lucida Console;
+						color: black;
+						padding-bottom: 3%;
+						text-decoration: underline;
+						text-align: left;
+						}						
+						
+#factswebsites dt	{	font-family: times new roman;
+						color: black;
+						text-decoration: underline;
+						font-weight: bold;
+						padding-top: 3%;
+						padding-bottom: 3%;
+						}						
+						
+#factslist p		{	font-family: times new roman;
+						color: black;
+						font-style: italic;
+						}
+
+#textfaq p			{	font-family: times new roman;
+						color: black;
+						font-style: normal;
+						}	
+
+#faqml1			{	padding-left: 20px;
+						}
+						
+#faqml2			{	padding-left: 22px;
+						}
+						
+#faqml3			{	padding-left: 46px;
+						}
+						
+#faqml4			{	padding-left: 22px;
+						}
+
+
+/* Game Page ---------------------------------------------------------------------*/
+
+#gametop h2		{		font-family: verdana;
+						color: purple;
+						padding-left: 23%;
+						text-decoration: underline;
+						}		
+						
+#gameinfo  		{		padding-left: 30%;
+						}
+						
+#gamewriting, #gamewriting, #gamehistory, #gamespread, #gamewins   		{	padding-left: 5%;
+						}
+						
+#gamerules caption {	text-decoration: underline;
+						}	
+						
+#gamerules th 	{		text-decoration: underline;
+						}
+						
+#gamerules table, th, td {	border: 3px solid black;
+						}							
+
+#franksfirstgame form	{	color: black;
+							padding-left: 39%;
+							text-decoration: underline;
+							}
+							
+#franksfirstgame h2	{	color: black;
+						padding-left: 5%;
+						text-decoration: underline;
+						}
+						
+#gameSelection 		{		padding-left: 18%;
+						}
+						
+#gameButton   		{	padding-left: 20%;
+						}
+						
+#gameOutput   		{	padding-left: 20%;
+						}
+						
+#gamereset   		{	font-weight: bold;
+						font-size: 30px;
+						}
+						
+#penny, #cloth, #morgan   		{	font-weight: bold;
+									font-size: 20px;
+									}
+
+				
+
+/* Grading Page ---------------------------------------------------------------------*/
+
+				/* List Text */
+
+#maingrading h1		{	font-family: impact;
+						color: blue;
+						text-decoration: underline;
+						}						
+
+#maingrading dt		{	font-family: times new roman;
+						color: black;
+						text-decoration: underline;
+						font-weight: bold;
+						padding-bottom: 2%;
+						}							
+	
+#maingrading dd		{	font-family: times new roman;
+						color: black;
+						padding-bottom: 5%;
+						}	
+
+#gradingtext p		{	font-family: times new roman;
+						color: black;
+						font-style: italic;
+						font-size: 120%;
+						}
+
+
+
+				/* Pictures */					
+
+#gradepoor 			{ 	width: 100px;
+    					height: 100px;
+						background-color: #ADD8E6;
+						background-image: url(../../images/poor.png);	
+						background-size: cover;	
+						background-repeat: no-repeat;
+						background-position:center;
+						padding: 24% 15%;
+						}
+
+#gradeg 			{ 	width: 100px;
+    					height: 100px;
+						background-color: #ADD8E6;
+						background-image: url(../../images/g.png);	
+						background-size: cover;	
+						background-repeat: no-repeat;
+						background-position:center;
+						padding: 21% 13%;
+						}
+
+#gradevg 			{ 	width: 50px;
+    					height: 50px;
+						background-color: #ADD8E6;
+						background-image: url(../../images/vg.png);	
+						background-size: cover;	
+						background-repeat: no-repeat;
+						background-position:center;
+						padding: 23% 14%;
+						}						
+						
+#gradefine 			{ 	width: 100px;
+    					height: 100px;
+						background-color: #ADD8E6;
+						background-image: url(../../images/fine.png);	
+						background-size: cover;	
+						background-repeat: no-repeat;
+						background-position:center;
+						padding: 24% 15%;
+						}					
+
+#gradevf 			{ 	width: 100px;
+    					height: 100px;
+						background-color: #ADD8E6;
+						background-image: url(../../images/vf.png);	
+						background-size: cover;	
+						background-repeat: no-repeat;
+						background-position:center;
+						padding: 24% 15%;
+						}
+						
+#gradeef 			{ 	width: 100px;
+    					height: 100px;
+						background-color: #ADD8E6;
+						background-image: url(../../images/ef.png);	
+						background-size: cover;	
+						background-repeat: no-repeat;
+						background-position:center;
+						padding: 24% 15%;
+						}
+						
+#gradeau 			{ 	width: 100px;
+    					height: 100px;
+						background-color: #ADD8E6;
+						background-image: url(../../images/au.png);	
+						background-size: cover;	
+						background-repeat: no-repeat;
+						background-position:center;
+						padding: 24% 15%;
+						}				
+						
+#gradems 			{ 	width: 100px;
+    					height: 100px;
+						background-color: #ADD8E6;
+						background-image: url(../../images/ms.png);	
+						background-size: cover;	
+						background-repeat: no-repeat;
+						background-position:center;
+						padding: 24% 15%;
+						}
+
+				/* Video */
+				
+#videograding 		{ 	width: 560px;
+						height: 315px;
+						}	
+					
+					
+/* History Page---------------------------------------------------------------------*/	
+
+#historytop h1 			{	font-weight: bold;
+							color: red;
+							text-decoration: underline;   
+							}
+							
+#historycreator h2 		{	font-weight: bold;
+							text-decoration: underline;   
+							}
+							
+#historyminting h3 		{	font-weight: bold;
+							text-decoration: underline;   
+							}
+					
+#historyerrors h3 		{	font-weight: bold;
+							text-decoration: underline;   
+							}
+						
+/* Silver Price Page ---------------------------------------------------------------*/
+						
+#silverpricecalculator2	{	padding-left: 36px;
+							}
+
+
+
+
+/* FAQ */
+
+				/* Footer */
+				
+
+
+#footerfaq h1 		{ 	color: red;
+						text-decoration: underline;  
+						} 
+
+
+
+/* Storage Page ---------------------------------------------------------------------*/
+
+#storagetop h1		{	color: green;
+						text-decoration: underline; 
+						}
+	
+#storagenever p		{	text-align: left;
+						font-weight: bold; 
+						}
+						
+#storagenever li	{	text-align: left;
+						font-weight: normal; 
+						}
+
+#storagealbum h2	{	text-decoration: underline; 
+						}
+						
+#storagefolders h3		{	text-decoration: underline; 
+						}
+						
+#storagetubes h3	{	text-decoration: underline; 
+						}					
+					
+
+/* Links Page ---------------------------------------------------------------------*/
+
+#linkstop h2		{	text-decoration: underline; 
+						}
+							
+#linkswebsite h2	{	text-decoration: underline; 
+						}
+					
+#linkstable			{	margin-top: 15px;
+						border-style: solid;
+						}
+						
+#linkscenter h3 {	text-decoration: underline; 
+					color: red;
+					} 
+					
+#linksright2 h3 {	text-decoration: underline; 
+					color: white;
+					}
+					
+#linksbottom1 h3 {	text-decoration: underline;
+					color: blue; 
+					}
+
+
+/* Privacy Policy ---------------------------------------------------------------------*/
+										
+#privacypolicyheader h1 {	text-align: center;
+							font-weight: bold;
+							text-align: left;
+							text-decoration: underline;   
+							}
+							
+#privacypolicybody2	li	{	list-style-type: decimal;
+							text-align: left;
+							font-weight: normal;
+							}
+								
+#privacypolicybody3 p	{	font-weight: bold;
+							}
+							
+#privacypolicybody8 p	{	font-weight: bold;
+							}
+							
+#privacypolicybody10 li	{	list-style-type: disc;
+							text-align: left;
+							font-weight: normal;
+							}
+							
+#privacypolicybody11 p	{	font-weight: bold;
+							}
+							
+#privacypolicybody15 p	{	font-weight: bold;
+							}	
+
+
+
+/* Value ---------------------------------------------------------------------*/
+
+#pricingtop h1 			{	font-weight: bold;
+							color: red;
+							text-decoration: underline;   
+							}
+
+#pricingmintage h2 		{	font-weight: bold;
+							text-decoration: underline;   
+							}
+							
+#pricingremaining h3 		{	font-weight: bold;
+							text-decoration: underline;   
+							}
+							
+#pricinggrade h3 		{	font-weight: bold;
+							text-decoration: underline;   
+							}
+							
+#pricingweathering h3 		{	font-weight: bold;
+							text-decoration: underline;   
+							}

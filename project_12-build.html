@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Frank Smith | Contact - Morgan Silver Dollars</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="user-scalable = no">
+<link href="./resources/css/coins.css" rel="stylesheet" media="screen">
+<link href="./resources/css/print.css" rel="stylesheet" type="text/css" media="print" />
+<link rel="stylesheet" media="only screen and (max-width: 980px)" href="./resources/css/mobile.css">
+<link href="./resources/css/960_12_col.css" rel="stylesheet" media="screen">
+<script src="./resources/javascript/javascript.js"></script>  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>  
+
+<body>
+
+<div id="contactbox" class="container_12 clearfix">
+
+	<div id="contactborder">
+
+<!-- Header Section, handled in CSS --> 
+
+		<div id="header" class="grid_12">
+		</div>
+	
+<!-- Left Menu, handled in shared CSS code -->
+
+		<div id="menuProject" class="grid_3">
+			<ul>
+				<li><a href="project_1.html" accesskey="h">Home</a></li>
+				<li><a href="project_2.html" accesskey="a">About</a></li>
+				<li><a href="project_3.html" accesskey="c">Cleaning</a></li>
+				<li><a href="project_4.html" accesskey="c">Contact</a></li>
+				<li><a href="project_5.html" accesskey="d">Direction</a></li>
+				<li><a href="project_6.html" accesskey="f">FAQ</a></li>
+				<li><a href="project_7.html" accesskey="g">Game</a></li>
+				<li><a href="project_8.html" accesskey="g">Grading</a></li>
+				<li><a href="project_9.html" accesskey="h">History</a></li>
+				<li><a href="project_10.html" accesskey="s">Silver Value Calculator</a></li>
+				<li><a href="project_11.html" accesskey="s">Storage</a></li>
+				<li><a href="project_12.html" accesskey="l">Links</a></li>
+				<li><a href="project_13.html" accesskey="p">Privacy Policy</a></li>
+				<li><a href="project_14.html" accesskey="v">Value</a></li>
+			</ul>
+		</div>
+  	
+<!-- Individual main body section -->
+
+		<div id="contactcenter" class="grid_9">
+	
+		<div id="printing" class="grid_1">
+			<p>Thanks for Printing!</p>
+		</div>
+		
+			<div id="contactheader" class="grid_9">
+			
+				<div id="contactheadername" class="grid_1">
+					<h1 id="thanks"><ins>Contact</ins></h1>
+				</div>
+			
+				<div id="fivestar" class="grid_5">
+					<h1>&star; &star; &star; &star; &star;</h1>
+				</div>
+			</div>
+		
+			<div id="contacttype" class="grid_9">
+		
+				<div id="contacttext" class="grid_8">
+					<p>We are always here to help you in any way that we can. From subscribing to our weekly emails, to answering questions you may have below.</p>
+				</div>
+			
+				<div id="contactbuttons" class="grid_8">
+					<ul>
+						<li><button id="contactcontact" onclick="email()">Contact</button></li>
+						<li><button onclick="mailing()">Mailing List</button></li>
+						<li><button onclick="club()">Club Membership</button></li>
+					</ul>
+				</div>
+			
+			</div>
+		
+		
+			<div id="email" style="display: none">
+  		
+<!-- Print Break -->
+		
+			<div class="page1"> </div>	
+			
+				<p>Please send us any questions or concerns, and we will do our best to help you in any way that we can.</p>
+			
+				<fieldset>
+					<legend>Email List</legend> 
+					<form id="emlist" onsubmit="return ((valemail(email.value) & valnames(firstname.value, lastname.value) & greeting(firstname.value)) == 1);" method="post">
+						<label id="contactem1">First Name:<input id="errorfn11" type="text" name="firstname" tabindex='1' placeholder="First Name"> </label> <label id="errorfn1"></label> <br /> 
+						<label id="contactem2">Last Name:<input id="errorln11" type="text" name="lastname" tabindex='2' placeholder="Last Name"> </label> <label id="errorln1"></label> <br />
+						<label id="contactem">E-Mail:<input id="errorem11" type="text" name="email" tabindex='3' placeholder="E-Mail"> </label> <label id="errorem1"></label> <br>
+						<textarea name="message" tabindex='4' cols="50" rows="15" placeholder="Message"></textarea><br />
+						<input type="reset" name="reset" value="Reset" tabindex='5'>
+						<input type="submit" name="submit" value="Submit" tabindex='6'>  
+					</form>	
+				</fieldset>
+			</div>
+	
+			<div id="clubmember" style="display: none">
+		
+<!-- Print Break -->
+		
+			<div class="page1"> </div>	
+		
+				<p>Would you like to join our Morgan collectible family? Join our club, and receive a print version of our monthly magazine, and meetups we will create for our members to meet. </p>
+		
+				<fieldset>
+					<legend>Club Membership</legend> 
+					<form onsubmit="return ((valemail(email.value) & valnames(firstname.value, lastname.value) & valadd(street.value, city.value, state.value, zip.value) & valpayph(phone.value, payment.value) & greeting(firstname.value, id)) == 1);" method="post">
+						<label>First Name:<input id="errorfn22" type="text" name="firstname" tabindex='7' placeholder="First Name"></label> <label id="errorfn2" ></label> <br />
+						<label id="contactcm1">Last Name:<input id="errorln22" type="text" name="lastname" tabindex='8' placeholder="Last Name"></label> <label id="errorln2"></label> <br /> 
+						<label id="contactcm2">Street:<input id="errorse22" type="text" name="street" tabindex='9' placeholder="Street"></label> <label id="errorse2"></label> <br />
+						<label id="contactcm3">City:<input id="errorct22" type="text" name="city" tabindex='10' placeholder="City"></label> <label id="errorct2"></label> <br />
+						<label id="contactcm4">State:<input id="errorst22" type="text" name="state" tabindex='11' placeholder="State"></label> <label id="errorst2"></label> <br />
+						<label id="contactcm5">Zipcode:<input id="errorzp22" type="text" name="zip" tabindex='12' placeholder="Zipcode"></label> <label id="errorzp2"></label> <br /> 
+						<label id="contactcm10">Phone:<input id="errorph22" type="text" name="phone" tabindex='13' placeholder="Phone Number" /></label> <label id="errorph2"></label>  <br />
+						<label id="contactcm6">E-Mail:<input id="errorem22" name="email" tabindex='14' placeholder="E-Mail" maxlength="60"></label> <label id="errorem2"> </label><br />
+						<p>Options for notifications:</p>
+						<label id="contactcm7">E-Mail List:<input type="checkbox" tabindex='15' name="namecheckbox" value="email"/></label>
+						<label id="contactcm8">Paper Mail:<input type="checkbox" tabindex='16' name="namecheckbox" value="mail"/></label>
+						<label id="contactcm9">Phone:<input type="checkbox" tabindex='17' name="namecheckbox" value="mail"/></label>
+						<p>How would you like to pay for your yearly membership of $25? We accept all forms of payment; however, for credit transactions we require in store payment.</p>
+						<select id="errorpy22" name="payment" tabindex='18'>
+							<option value="type">Type</option>
+							<option value="cash">Cash</option>
+							<option value="check">Check</option>
+							<option value="credit">Credit</option>
+							<option value="bicoin">Bitcoin</option>
+						</select> <label id="errorpy2"></label><br />
+						<input type="reset" tabindex='19' name="reset" value="Reset">
+						<input type="submit" tabindex='20' name="submit" value="Submit"> 
+					</form>
+				</fieldset>
+			</div>		
+		
+			<div id="mailinglist" style="display: none">
+		
+<!-- Print Break -->
+		
+			<div class="page1"> </div>	
+		
+				<p>Would you like to join our weekly e-mail list? If so, please fill out the following form to receive our emails!</p>
+		
+				<fieldset>
+					<legend>Mailing List</legend> 
+					<form onsubmit="return ((valemail(email.value) & valnames(firstname.value, lastname.value) & valadd(street.value, city.value, state.value, zip.value) & greeting(firstname.value)) == 1);" method="post">
+						<label>First Name:<input id="errorfn33" type="text" name="firstname" tabindex='21' placeholder="First Name"></label> <label id="errorfn3"></label> <br />
+						<label id="contactml1">Last Name:<input id="errorln33" type="text" name="lastname" tabindex='22' placeholder="Last Name"></label> <label id="errorln3"></label> <br /> 
+						<label id="contactml2">Street:<input id="errorse33" type="text" name="street" tabindex='23' placeholder="Street"></label> <label id="errorse3"></label> <br />
+						<label id="contactml3">City:<input id="errorct33" type="text" name="city" tabindex='24' placeholder="City"></label> <label id="errorct3"></label> <br />
+						<label id="contactml4">State:<input id="errorst33" type="text" name="state" tabindex='25' placeholder="State"></label> <label id="errorst3"></label> <br />
+						<label id="contactml5">Zipcode:<input id="errorzp33" type="text" name="zip" tabindex='26' placeholder="Zipcode"></label> <label id="errorzp3"></label><br /> 
+						<label id="contactml6">E-Mail:<input id="errorem33" name="email" tabindex='27' placeholder="E-Mail" maxlength="60"></label> <label id="errorem3"></label> <br />
+						<input type="reset" name="reset" tabindex='29' value="Reset">
+						<input id="submit3" type="submit" name="submit" tabindex='30' value="Submit"> 
+					</form>
+				</fieldset>
+			</div>
+
+			<div id="footercontact" class="grid_5">
+			
+				<h1>Our Location</h1>
+	
+					<address>
+						<p>555 Fake Street <br /> Towson, MD 21286</p>
+						<p>410-555-5555</p>
+						<p> Please send all emails to <abbr title="Mister">Mr.</abbr> Smith at <a href="mailto:fake@fake.net?subject=Morgan%20Coins" tabindex='25'> morgancoins@msd.net</a> </p>
+					</address>
+			</div>
+		</div>
+	  </div>
+	</div>
+</body>
+
+</html>
+
